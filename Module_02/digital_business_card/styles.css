@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+
+    margin: 15% auto auto auto;
+    justify-content: center;
+    justify-self: center;
+    display: flex;
+    width: 500px;
+    background-color: rgb(212, 242, 245);
+    padding-right: 20px;
+    border-bottom: 8px solid rgb(184, 200, 243);
+}
+
+img {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 250px;
+    padding: 20px;
+}
+
+.info {
+    margin-top: 15%;
+    flex-direction: column;
+    text-align: center;
+}
