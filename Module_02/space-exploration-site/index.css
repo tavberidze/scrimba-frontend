@@ -1,0 +1,27 @@
+body {
+    color: #82a5ca;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    background: url(/img/galaxy.webp);
+    background-size: cover;
+}
+
+button {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.spacex {
+    width: 150px;
+}
+
+button {
+    color: #82a5ca;
+    font-weight: 800;
+    padding: 6px 12px;
+    background: white;
+    border: none;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
