@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;;    
+}
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background: url(/img/torshov-image.jpg);
+    background-size: cover;
+    height: 343px;
+}
+
+.header-title {
+    padding: 5px 10px;
+    background-color: #1D3557;
+    color: #FFFF;
+    border-radius: 8px;
+    font-size: 32px;
+    line-height: 36.8px;
+    margin: 119px auto 11px auto;
+
+}
+
+.header-subtitle {
+    padding: 6px 28px;
+    background-color: #457B9D;
+    color: #FFFF;
+    font-size: 18.72px;
+    line-height: 22px;
+    font-weight: 800;
+    width: 355px;
+    margin: 11px auto auto auto;
+    border-radius: 10px;
+}
+
+/* activities */
+
+.activities {
+    height: 343px;
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.activities-title {
+    color: #1D3557;
+    font-size: 16px;
+    line-height: 18.4px;
+    width: 183px;
+}
+
+.activities-subtitle {
+    color: #1D3557;
+    width: 198px;
+    line-height: 18.4px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+/* guide */
+
+.guide {
+    margin: 50px auto;
+    width: 400px;
+    height: 294px;
+    display: flex;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    padding: 13px;
+}
+
+.info {
+    margin: auto;
+}
+
+.info h2 {
+    width: 207px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.info-p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.info-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+.per {
+    width: 180px;
+    height: 248.67px;
+    border-radius: 10px;
+    margin: auto auto;
+}
