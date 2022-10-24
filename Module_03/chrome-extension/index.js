@@ -3,12 +3,15 @@
 // event listeners for save and delete buttons
 // render function which will display <li> with <a> link inside ulElement / refactor to use a parameter
 // need to save inputs to localStorage for page refresh reasons it saves only strings so i have to stringify my array first and then JSON.parse it back to array to display as intended
-// i will need an if statement for this and to check which parameter to render 
+// i will need an if statement for this and to check which parameter to render
+// const variable for save tab button with event listener
+// use google API to make the save tab button work
 
 let leadsArr = []
 const inputEl = document.querySelector('#input-el')
 const saveBtn = document.querySelector('#save-btn')
 const deleteBtn = document.querySelector('#delete-btn')
+const tabBtn = document.querySelector('#save-tab')
 const ulEL = document.querySelector('#ul-el')
 const localStorageData = JSON.parse(localStorage.getItem('leadsArr'))
 
@@ -42,7 +45,14 @@ deleteBtn.addEventListener('dblclick', function() {
     render(leads)
 })
 
-
+tabBtn.addEventListener('click', function(){
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        leadsArr.push(tabs.[0].url)
+        localStorage.setItem('leadsArr', JSON.stringify(leadsArr))
+        render(leadsArr)
+    })
+    
+})
 
 
 
