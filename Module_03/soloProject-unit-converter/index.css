@@ -78,9 +78,10 @@ input[type=number] {
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    width: 285px;
+    width: 550px;
     height: 444px;
     background-color: #1F2937;
+    padding-bottom: 35px;
 }
 
 .output-title {
@@ -94,9 +95,19 @@ input[type=number] {
 }
 
 .output {
-    margin-top: 36px;
+    margin: 36px auto auto auto;
     width: 500px;
     height: 108.57px;
     background-color: #273549;
     border-radius: 4.68077px 0px 0px 0px;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 18.57px;
 }
