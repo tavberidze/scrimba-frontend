@@ -1,2 +1,2 @@
 # scrimba-frontend
-Frontend career path course files
+Frontend career path course projects
