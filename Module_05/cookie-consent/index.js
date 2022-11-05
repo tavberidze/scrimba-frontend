@@ -3,6 +3,8 @@ const modalCloseBtn = document.getElementById('modal-close-btn')
 const consentForm = document.getElementById('consent-form')
 const modalText = document.getElementById('modal-text')
 
+// a
+
 setTimeout(function(){
     modal.style.display = 'inline'
 }, 1500)
