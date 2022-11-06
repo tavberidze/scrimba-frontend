@@ -4,7 +4,7 @@ const consentForm = document.getElementById('consent-form')
 const modalText = document.getElementById('modal-text')
 
 // a
-
+// a
 setTimeout(function(){
     modal.style.display = 'inline'
 }, 1500)
